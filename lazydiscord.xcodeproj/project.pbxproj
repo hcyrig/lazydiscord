@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CAEBF728E6104D00A51769 /* lazyapi in Frameworks */ = {isa = PBXBuildFile; productRef = 23CAEBF628E6104D00A51769 /* lazyapi */; };
+		23E47FDC28DEFB3E005A6F9B /* MainViewController+MessagesListActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FC628DEFB3E005A6F9B /* MainViewController+MessagesListActionsView.swift */; };
+		23E47FDD28DEFB3E005A6F9B /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FC728DEFB3E005A6F9B /* MainWindowController.swift */; };
+		23E47FDE28DEFB3E005A6F9B /* MainViewController+DeleteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FC828DEFB3E005A6F9B /* MainViewController+DeleteMessage.swift */; };
+		23E47FE028DEFB3E005A6F9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FCA28DEFB3E005A6F9B /* MainViewController.swift */; };
+		23E47FE228DEFB3E005A6F9B /* MainViewController+ChannelsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FCC28DEFB3E005A6F9B /* MainViewController+ChannelsListView.swift */; };
+		23E47FE328DEFB3E005A6F9B /* MainViewController+Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FCD28DEFB3E005A6F9B /* MainViewController+Music.swift */; };
+		23E47FE428DEFB3E005A6F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E47FCE28DEFB3E005A6F9B /* Main.storyboard */; };
+		23E47FE528DEFB3E005A6F9B /* MainViewController+MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FCF28DEFB3E005A6F9B /* MainViewController+MessagesView.swift */; };
+		23E47FE728DEFB3E005A6F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E47FD228DEFB3E005A6F9B /* AppDelegate.swift */; };
+		23E47FE828DEFB3E005A6F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E47FD328DEFB3E005A6F9B /* Assets.xcassets */; };
+		23E47FEA28DEFB3E005A6F9B /* crack-music.arcade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23E47FD828DEFB3E005A6F9B /* crack-music.arcade.mp3 */; };
+		23F73D3328E2437200526D94 /* lazyapi in Frameworks */ = {isa = PBXBuildFile; productRef = 23F73D3228E2437200526D94 /* lazyapi */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23E47FB028DEFA43005A6F9B /* lazydiscord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lazydiscord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E47FC628DEFB3E005A6F9B /* MainViewController+MessagesListActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+MessagesListActionsView.swift"; sourceTree = "<group>"; };
+		23E47FC728DEFB3E005A6F9B /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		23E47FC828DEFB3E005A6F9B /* MainViewController+DeleteMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+DeleteMessage.swift"; sourceTree = "<group>"; };
+		23E47FCA28DEFB3E005A6F9B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23E47FCC28DEFB3E005A6F9B /* MainViewController+ChannelsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+ChannelsListView.swift"; sourceTree = "<group>"; };
+		23E47FCD28DEFB3E005A6F9B /* MainViewController+Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+Music.swift"; sourceTree = "<group>"; };
+		23E47FCE28DEFB3E005A6F9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		23E47FCF28DEFB3E005A6F9B /* MainViewController+MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+MessagesView.swift"; sourceTree = "<group>"; };
+		23E47FD228DEFB3E005A6F9B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23E47FD328DEFB3E005A6F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23E47FD828DEFB3E005A6F9B /* crack-music.arcade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "crack-music.arcade.mp3"; sourceTree = "<group>"; };
+		23E47FDA28DEFB3E005A6F9B /* lazydiscord.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = lazydiscord.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E47FAD28DEFA43005A6F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F73D3328E2437200526D94 /* lazyapi in Frameworks */,
+				23CAEBF728E6104D00A51769 /* lazyapi in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E47FA728DEFA43005A6F9B = {
+			isa = PBXGroup;
+			children = (
+				23E47FC228DEFB3E005A6F9B /* lazydiscord */,
+				23E47FB128DEFA43005A6F9B /* Products */,
+				23E47FEF28DEFC0B005A6F9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23E47FB128DEFA43005A6F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FB028DEFA43005A6F9B /* lazydiscord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23E47FC228DEFB3E005A6F9B /* lazydiscord */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FC428DEFB3E005A6F9B /* classes */,
+				23E47FD328DEFB3E005A6F9B /* Assets.xcassets */,
+				23E47FD628DEFB3E005A6F9B /* resouces */,
+				23E47FDA28DEFB3E005A6F9B /* lazydiscord.entitlements */,
+			);
+			path = lazydiscord;
+			sourceTree = "<group>";
+		};
+		23E47FC428DEFB3E005A6F9B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FC528DEFB3E005A6F9B /* main */,
+				23E47FD128DEFB3E005A6F9B /* app-delegate */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		23E47FC528DEFB3E005A6F9B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FCE28DEFB3E005A6F9B /* Main.storyboard */,
+				23E47FCA28DEFB3E005A6F9B /* MainViewController.swift */,
+				23E47FC728DEFB3E005A6F9B /* MainWindowController.swift */,
+				23E47FCC28DEFB3E005A6F9B /* MainViewController+ChannelsListView.swift */,
+				23E47FC628DEFB3E005A6F9B /* MainViewController+MessagesListActionsView.swift */,
+				23E47FC828DEFB3E005A6F9B /* MainViewController+DeleteMessage.swift */,
+				23E47FCF28DEFB3E005A6F9B /* MainViewController+MessagesView.swift */,
+				23E47FCD28DEFB3E005A6F9B /* MainViewController+Music.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		23E47FD128DEFB3E005A6F9B /* app-delegate */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FD228DEFB3E005A6F9B /* AppDelegate.swift */,
+			);
+			path = "app-delegate";
+			sourceTree = "<group>";
+		};
+		23E47FD628DEFB3E005A6F9B /* resouces */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FD728DEFB3E005A6F9B /* audio */,
+			);
+			path = resouces;
+			sourceTree = "<group>";
+		};
+		23E47FD728DEFB3E005A6F9B /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				23E47FD828DEFB3E005A6F9B /* crack-music.arcade.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		23E47FEF28DEFC0B005A6F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23E47FAF28DEFA43005A6F9B /* lazydiscord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E47FBF28DEFA44005A6F9B /* Build configuration list for PBXNativeTarget "lazydiscord" */;
+			buildPhases = (
+				23E47FAC28DEFA43005A6F9B /* Sources */,
+				23E47FAD28DEFA43005A6F9B /* Frameworks */,
+				23E47FAE28DEFA43005A6F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lazydiscord;
+			packageProductDependencies = (
+				23F73D3228E2437200526D94 /* lazyapi */,
+				23CAEBF628E6104D00A51769 /* lazyapi */,
+			);
+			productName = lazydiscord;
+			productReference = 23E47FB028DEFA43005A6F9B /* lazydiscord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23E47FA828DEFA43005A6F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					23E47FAF28DEFA43005A6F9B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 23E47FAB28DEFA43005A6F9B /* Build configuration list for PBXProject "lazydiscord" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23E47FA728DEFA43005A6F9B;
+			packageReferences = (
+				23CAEBF528E6104D00A51769 /* XCRemoteSwiftPackageReference "lazyapi" */,
+			);
+			productRefGroup = 23E47FB128DEFA43005A6F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23E47FAF28DEFA43005A6F9B /* lazydiscord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23E47FAE28DEFA43005A6F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E47FEA28DEFB3E005A6F9B /* crack-music.arcade.mp3 in Resources */,
+				23E47FE828DEFB3E005A6F9B /* Assets.xcassets in Resources */,
+				23E47FE428DEFB3E005A6F9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E47FAC28DEFA43005A6F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E47FE728DEFB3E005A6F9B /* AppDelegate.swift in Sources */,
+				23E47FE528DEFB3E005A6F9B /* MainViewController+MessagesView.swift in Sources */,
+				23E47FDE28DEFB3E005A6F9B /* MainViewController+DeleteMessage.swift in Sources */,
+				23E47FE228DEFB3E005A6F9B /* MainViewController+ChannelsListView.swift in Sources */,
+				23E47FE328DEFB3E005A6F9B /* MainViewController+Music.swift in Sources */,
+				23E47FDC28DEFB3E005A6F9B /* MainViewController+MessagesListActionsView.swift in Sources */,
+				23E47FE028DEFB3E005A6F9B /* MainViewController.swift in Sources */,
+				23E47FDD28DEFB3E005A6F9B /* MainWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23E47FBD28DEFA44005A6F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23E47FBE28DEFA44005A6F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23E47FC028DEFA44005A6F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lazydiscord/lazydiscord.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lazydiscord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23E47FC128DEFA44005A6F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lazydiscord/lazydiscord.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.lazydiscord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E47FAB28DEFA43005A6F9B /* Build configuration list for PBXProject "lazydiscord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E47FBD28DEFA44005A6F9B /* Debug */,
+				23E47FBE28DEFA44005A6F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E47FBF28DEFA44005A6F9B /* Build configuration list for PBXNativeTarget "lazydiscord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E47FC028DEFA44005A6F9B /* Debug */,
+				23E47FC128DEFA44005A6F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23CAEBF528E6104D00A51769 /* XCRemoteSwiftPackageReference "lazyapi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hcyrig/lazyapi";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23CAEBF628E6104D00A51769 /* lazyapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23CAEBF528E6104D00A51769 /* XCRemoteSwiftPackageReference "lazyapi" */;
+			productName = lazyapi;
+		};
+		23F73D3228E2437200526D94 /* lazyapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = lazyapi;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 23E47FA828DEFA43005A6F9B /* Project object */;
+}
